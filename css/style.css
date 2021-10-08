@@ -1,0 +1,150 @@
+body {
+    background-color: #F35340;
+}
+
+/* Buttons nav */
+.btn-menu {
+    color: #fff;
+    background-color: #F35340;
+    border-color: #F35340;
+}
+.btn-menu:hover {
+    color: #fff;
+    background-color: #db3d2c;
+    border-color: #db3d2c;  
+}
+
+.btn-check:focus + .btn-menu, .btn-menu:focus {
+    color: #fff;
+    background-color: #ec4936;
+    border-color: #ec4936;
+    box-shadow: 0 0 0 0.25rem #f35240c2;
+}
+
+.btn-check:checked + .btn-menu, .btn-check:active + .btn-menu, .btn-menu:active, .btn-menu.active, .show > .btn-menu.dropdown-toggle {
+    color: #fff;
+    background-color: #db3d2c;
+    border-color: #F35340;
+  }
+  .btn-check:checked + .btn-menu:focus, .btn-check:active + .btn-menu:focus, .btn-menu:active:focus, .btn-menu.active:focus, .show > .btn-menu.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem #f35240c2;
+  }
+  .btn-menu:disabled, .btn-menu.disabled {
+    color: #fff;
+    background-color: #ff796a;
+    border-color: #ff5d4b;
+  }
+/* Buttons nav */
+
+.nav-title {
+    color: #F35340;
+    font-weight: bold;
+}
+
+.nav-title:hover {
+    text-decoration: underline;
+}
+
+#home-pg {
+    width: 70%;
+    min-width: 300px; /* esse é o tamanho minimo --> quando ficar menor que 300px ele para */
+    /* Não coloquei o height pois ja fica responsivo por causa do bootstrap */
+    padding: 24px 16px 24px 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow:  0px 5px 8px 0.025rem rgb(151 31 18 / 41%);
+
+}
+
+.custom-home-container {
+    display: flex;
+    justify-content: center;
+}
+
+#home-pg .img-home {
+    width: 90%;
+}
+
+#home-pg .titulo-home {
+    text-align: center;
+    color: #F35340;
+}
+
+#home-pg .paragrafo-home {
+    text-align: justify;
+    font-size: 17px;
+}
+
+/* footer */
+
+.rodape {
+    width: 100%;
+    background-color: #fff;
+}
+
+/* .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+ */
+  /* veiculos */
+
+#veiculos-pg {
+    width: 70%;
+    min-width: 300px; /* esse é o tamanho minimo --> quando ficar menor que 300px ele para */
+    padding: 24px 16px 24px 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow:  0px 5px 8px 0.025rem rgb(151 31 18 / 41%);
+}
+
+#veiculos-pg .card-box:hover {
+    box-shadow:  0px 5px 8px 0.025rem rgb(151 31 18 / 41%);
+    transition: .3s;
+}
+
+#veiculos-pg .border-card {
+    border-color: #F35340;
+
+}
+
+#veiculos-pg .veiculos-btn {
+    width: min(70%, 140px);
+}
+
+
+/* contatos */
+
+.paragrafo-cntt {
+    font-size: 16px;
+    line-height: 59px;
+
+}
+
+.icons-cntt {
+    color: #F35340;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+/* login */
+
+#login-pg {
+    width: 32%;
+    min-width: 300px; /* esse é o tamanho minimo --> quando ficar menor que 300px ele para */
+    padding: 24px 16px 24px 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow:  0px 5px 8px 0.025rem rgb(151 31 18 / 41%);
+}
+
+#login-pg .img-login {
+    width: 50%;
+}
+
+/* modal */
+
+.img-modal {
+    width: 50%;
+}
